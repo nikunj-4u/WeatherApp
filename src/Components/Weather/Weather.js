@@ -33,6 +33,7 @@ setTempInfo(myNewWeatherInfo);
 
     useEffect(()=>{
 getWeatherInfo();
+ // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
 
     
